@@ -85,7 +85,7 @@ class MessageEmbedField(SlottedModel):
 
 class MessageEmbed(SlottedModel):
     """
-    Message embed object
+    Message embed object.
 
     Attributes
     ----------
@@ -114,7 +114,7 @@ class MessageEmbed(SlottedModel):
 
 class MessageAttachment(SlottedModel):
     """
-    Message attachment object
+    Message attachment object.
 
     Attributes
     ----------
@@ -239,7 +239,7 @@ class Message(SlottedModel):
     def reply(self, *args, **kwargs):
         """
         Reply to this message (proxys arguments to
-        :func:`disco.types.channel.Channel.send_message`)
+        :func:`disco.types.channel.Channel.send_message`).
 
         Returns
         -------
@@ -250,7 +250,7 @@ class Message(SlottedModel):
 
     def edit(self, content):
         """
-        Edit this message
+        Edit this message.
 
         Args
         ----
